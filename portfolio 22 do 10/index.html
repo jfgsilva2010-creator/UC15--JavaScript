@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de desenvolvimento para vaga de estágio em tecnologia.">
+  <title>Portfólio Profissional | Estágio em TI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#inicio" class="logo" aria-label="Página inicial do Portfólio">
+        Josué<span>Fernandes    </span>
+      </a>
+
+      <!-- Botão Modo Claro / Escuro -->
+      <button id="theme-toggle" class="theme-btn" aria-label="Alternar modo claro e escuro">
+        🌙
+      </button>
+
+      <!-- Botão Menu Hambúrguer -->
+      <button id="hamburger-btn" class="hamburger" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="main-nav">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Navegação Principal -->
+      <nav id="main-nav" class="nav">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Seção Início -->
+    <section id="inicio" class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p id="greeting" class="greeting-text">Olá!</p>
+          <h1 class="hero-title">Sou Estudante de Desenvolvimeto de Software</h1>
+          <p class="hero-subtitle">Buscando minha primeira oportunidade de estágio na área de Tecnologia.</p>
+          <a href="#projetos" class="btn btn-primary">Ver Meus Projetos</a>
+        </div>
+        <div class="hero-image">
+          <img src="Captura de tela 2026-10-22 101140.png" alt="Foto de perfil sorrindo" class="avatar-img" onerror="this.src='https://via.placeholder.com/280x280/0a0a0a/00ff66?text=Dev+Avatar'">
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="about-content">
+          <p>
+            Atualmente estou cursando Análise e Desenvolvimento de Sistemas e dedico meus dias ao estudo do desenvolvimento web. Tenho foco em escrever código limpo, semântico e acessível.
+          </p>
+          <p>
+            <strong>Objetivo Profissional:</strong> Conquistar uma vaga de estágio onde eu possa aplicar meus conhecimentos em HTML, CSS, JavaScript e lógica de programação, colaborar com o time de desenvolvimento e acelerar meu aprendizado prático no mercado corporativo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="habilidades" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>HTML5 Semântico</h3>
+            <p>Acessibilidade, estrutura SEO e tags WCAG.</p>
+          </article>
+          <article class="skill-card">
+            <h3>CSS3 Moderno</h3>
+            <p>Flexbox, Grid, Variáveis CSS e Responsividade.</p>
+          </article>
+          <article class="skill-card">
+            <h3>JavaScript ES6+</h3>
+            <p>Manipulação de DOM, Eventos e Validações.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Git & GitHub</h3>
+            <p>Controle de versão e trabalho em equipe.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2 class="section-title">Projetos Acadêmicos</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <img src="img/projeto1.jpg" alt="Captura de tela do Projeto Calculadora Web" class="project-img" onerror="this.src='https://via.placeholder.com/400x220/111/00ff66?text=Projeto+1'">
+            <div class="project-body">
+              <h3>Calculadora Interativa</h3>
+              <p>Completei um prototipo de alta fidelidade no aplicativo do FIGMA.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/projeto2.jpg" alt="Captura de tela do Projeto Landing Page" class="project-img" onerror="this.src='https://via.placeholder.com/400x220/111/00ff66?text=Projeto+2'">
+            <div class="project-body">
+              <h3>Landing Page de Evento</h3>
+              <p>Com ajudas de colegas, completei um projeto de tabela periodica, passada pelo professor de quimica</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/projeto3.jpg" alt="Captura de tela do Projeto Lista de Tarefas" class="project-img" onerror="this.src='https://via.placeholder.com/400x220/111/00ff66?text=Projeto+3'">
+            <div class="project-body">
+              <h3>Lista de Tarefas (To-Do)</h3>
+              <p>fiz o projeto, de planejador escolar.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Entre em Contato</h2>
+        <form id="contact-form" class="contact-form" novalidate>
+          
+          <div class="form-group">
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" name="name" required aria-required="true" placeholder="Seu nome">
+            <span class="error-message" id="name-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail de Contato:</label>
+            <input type="email" id="email" name="email" required aria-required="true" placeholder="seuemail@exemplo.com">
+            <span class="error-message" id="email-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Escreva sua mensagem aqui..."></textarea>
+            <span class="error-message" id="message-error"></span>
+          </div>
+
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="consent" name="consent" required aria-required="true">
+            <label for="consent">Concordo com o armazenamento dos meus dados apenas para fins de contato profissional.</label>
+          </div>
+          <span class="error-message" id="consent-error"></span>
+
+          <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+          <p id="form-success" class="success-message" role="alert"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="current-year"></span> Desenvolvido por Seu Nome. Todos os direitos reservados.</p>
+      <a href="#inicio" class="back-to-top" aria-label="Voltar para o topo da página">⬆ Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="scritpt.js"></script>
+</body>
+</html>
