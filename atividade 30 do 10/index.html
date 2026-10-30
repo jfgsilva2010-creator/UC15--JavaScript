@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Consulta de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Sistema de Notas</h1>
+        <p>Consulte o resultado acadêmico do estudante.</p>
+
+        <div class="campo">
+            <label for="nome">Nome do estudante:</label>
+            <input type="text" id="nome" placeholder="Digite o nome">
+        </div>
+
+        <div class="notas">
+            <div class="campo">
+                <label for="nota1">Nota 1:</label>
+                <input type="number" id="nota1" min="0" max="10" step="any">
+            </div>
+
+            <div class="campo">
+                <label for="nota2">Nota 2:</label>
+                <input type="number" id="nota2" min="0" max="10" step="any">
+            </div>
+
+            <div class="campo">
+                <label for="nota3">Nota 3:</label>
+                <input type="number" id="nota3" min="0" max="10" step="any">
+            </div>
+        </div>
+
+        <div class="botoes">
+            <button onclick="calcularMedia()">Calcular média</button>
+            <button class="limpar" onclick="limparCampos()">Reiniciar</button>
+        </div>
+
+        <div id="resultado" aria-live="polite"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
